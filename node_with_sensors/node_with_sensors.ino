@@ -31,16 +31,16 @@ Adafruit_BMP085 bmp;
 
 // LoRaWAN NwkSKey, network session key
 // This should be in big-endian (aka msb).
-static const PROGMEM u1_t NWKSKEY[16] = { 0x8C, 0x43, 0x42, 0xF4, 0x94, 0x5B, 0xA5, 0xEB, 0x76, 0x9F, 0x7C, 0x03, 0xDE, 0x88, 0xB5, 0x30 };
+static const PROGMEM u1_t NWKSKEY[16] = {};
 
 // LoRaWAN AppSKey, application session key
 // This should also be in big-endian (aka msb).
-static const u1_t PROGMEM APPSKEY[16] = { 0x5A, 0x4C, 0x49, 0xE5, 0xFA, 0x43, 0x79, 0x5C, 0x0A, 0x21, 0x18, 0x9F, 0x41, 0xF5, 0xCE, 0x8A };
+static const u1_t PROGMEM APPSKEY[16] = {};
 
 // LoRaWAN end-device address (DevAddr)
 // See http://thethingsnetwork.org/wiki/AddressSpace
 // The library converts the address to network byte order as needed, so this should be in big-endian (aka msb) too.
-static const u4_t DEVADDR = 0x26011043; // <-- Change this address for every node!
+static const u4_t DEVADDR = 0x; // <-- Change this address for every node!
 
 
 
